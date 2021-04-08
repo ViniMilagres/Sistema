@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.8.11" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44293,8752715278" ReportOptions.Description.Text="" ReportOptions.LastChange="44293,9069684722" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBDatasetCaixa" DataSetName="frxDBDataset2"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" HGuides.Text="" VGuides.Text="" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" HGuides.Text="" VGuides.Text="" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="37,7953" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Date" IndexTag="1" AllowVectorExport="True" Left="597,16574" Top="3,77953" Width="56,69295" Height="11,33859" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[Date]"/>
+      <TfrxMemoView Name="Time" IndexTag="1" AllowVectorExport="True" Left="597,16574" Top="19,67718" Width="56,69295" Height="11,33859" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[Time]"/>
+      <TfrxMemoView Name="Page" IndexTag="1" AllowVectorExport="True" Left="668,97681" Top="3,77953" Width="41,57483" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[Page#]"/>
+      <TfrxMemoView Name="Memo1" AllowVectorExport="True" Left="11,33859" Top="3,77953" Width="555,59091" Height="30,23624" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Relatório de Lançamentos no Caixa"/>
+      <TfrxLineView Name="Line1" AllowVectorExport="True" Left="4,77953" Top="34,7953" Width="706,77211" Height="0" Color="0" Frame.Typ="4"/>
+    </TfrxReportTitle>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="30,23624" Left="0" Top="79,37013" Width="718,1107">
+      <TfrxMemoView Name="Memo2" AllowVectorExport="True" Left="3,77953" Top="3,77953" Width="105,82684" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" VAlign="vaCenter" Text="Nr. Documento"/>
+      <TfrxMemoView Name="Memo3" AllowVectorExport="True" Left="130,06308" Top="3,77953" Width="222,99227" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" VAlign="vaCenter" Text="Descrição"/>
+      <TfrxMemoView Name="Memo5" AllowVectorExport="True" Left="498,89796" Top="3,77953" Width="56,69295" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" VAlign="vaCenter" Text="Tipo"/>
+      <TfrxMemoView Name="Memo4" AllowVectorExport="True" Left="374,05535" Top="3,77953" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" VAlign="vaCenter" Text="Valor"/>
+      <TfrxMemoView Name="Memo6" AllowVectorExport="True" Left="577,60668" Top="3,77953" Width="113,3859" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" VAlign="vaCenter" Text="Data do Cadastro"/>
+      <TfrxLineView Name="Line2" AllowVectorExport="True" Left="2,77953" Top="28,23624" Width="706,77211" Height="0" Color="0" Frame.Typ="4" Frame.Width="0,1"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="41,57483" Left="0" Top="170,07885" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDatasetCaixa" DataSetName="frxDBDataset2" RowCount="0">
+      <TfrxMemoView Name="frxDBDataset2numero_doc" IndexTag="1" AllowVectorExport="True" Left="7,55906" Top="7,55906" Width="102,04731" Height="18,89765" DataField="numero_doc" DataSet="frxDBDatasetCaixa" DataSetName="frxDBDataset2" Frame.Typ="0" Text="[frxDBDataset2.&#34;numero_doc&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset2descricao" IndexTag="1" AllowVectorExport="True" Left="128,50402" Top="7,55906" Width="222,99227" Height="18,89765" DataField="descricao" DataSet="frxDBDatasetCaixa" DataSetName="frxDBDataset2" Frame.Typ="0" Text="[frxDBDataset2.&#34;descricao&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset2valor" IndexTag="1" AllowVectorExport="True" Left="374,17347" Top="7,55906" Width="98,26778" Height="18,89765" DataField="valor" DataSet="frxDBDatasetCaixa" DataSetName="frxDBDataset2" Frame.Typ="0" Text="[frxDBDataset2.&#34;valor&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset2tipo" IndexTag="1" AllowVectorExport="True" Left="506,45702" Top="7,55906" Width="26,45671" Height="18,89765" DataField="tipo" DataSet="frxDBDatasetCaixa" DataSetName="frxDBDataset2" Frame.Typ="0" Text="[frxDBDataset2.&#34;tipo&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset2dt_cadastro" IndexTag="1" AllowVectorExport="True" Left="585,82715" Top="7,55906" Width="79,37013" Height="18,89765" DataField="dt_cadastro" DataSet="frxDBDatasetCaixa" DataSetName="frxDBDataset2" Frame.Typ="0" Text="[frxDBDataset2.&#34;dt_cadastro&#34;]"/>
+      <TfrxLineView Name="Line3" AllowVectorExport="True" Left="7,55906" Top="30,23624" Width="706,77211" Height="0" Color="0" Frame.Typ="4" Frame.Width="0,1"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>
